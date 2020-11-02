@@ -1,1 +1,2 @@
-# Solving task of Edge detection and Image Classification in the field of self-driving cars.
+# Solving task of Edge detection and Image Classification in the field of self-driving cars. Raw variant.
+One day a self-driving car was driving and suddenly it started to rain. The main camera has lost image clarity, except random square area. We need to find out, either a man or a car is in this square area. It is guaranteed that there is a car or a man there. Classes are balanced. For train dataset we have images, positions of square areas with their size and labels, but on test dataset we have only images. Finally, model scored using cross-validation since test samples are not labeled.
